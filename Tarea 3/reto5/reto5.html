@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link href="images/favicon.png" rel="icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+<header>
+    <div class="container-xl  d-flex align-items-center justify-content-center">
+        <div class="row">
+            <a class="botones" href="https://ucenfotec.ac.cr" target="blank"><img src="./../images/logoCENFO.png" alt="logoCENFO"></a>
+        </div>
+
+</div>
+        
+<div class="container-xl  d-flex align-items-center justify-content-center">
+        <div class="row">
+            <div>
+            <a href="../index.html">< Volver a Casa</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+<body>
+     <header class="container-fluid">
+    </header>
+    <section class="container inicio">
+        <div class="row">
+            <div class="col-sm-4 col-md-6 col-lg-6">
+        </div>
+        <div class="col-sm-8 col-md-6 col-lg-6">
+            <div class="text-center container nissan">
+                <h1>NISSAN</h1>
+                <p class="pt-2">Consigue tu modelo 2025 AQUI.</p>
+            </div>
+        </div>
+    </section>
+  <section class="container">
+        <div class="row">
+            <div class="col-sm-5 col-md-5 col-lg-5">
+                <div class="inputs pt-4">
+                    <h2 class="pb-3">Seleccione el vehículo</h2>
+                    <h4>Modelo</h4>
+
+                    <!-- combo vehiculo -->
+                    <select name="modelo" id="modelo">
+                        <option selected disabled>Seleccione un modelo:</option>
+                        <option>Frontier</option>
+                        <option>Sentra</option>
+                        <option>Qashqai</option>
+                    </select>
+
+                    <div class="pt-3"></div>
+                    <h4>Versión</h4>
+                    <!-- combo version -->
+                    <select name="version" id="version">
+                        <option selected disabled>Seleccione una versión:</option>
+                        <option>4x2</option>
+                        <option>4x4</option>
+                    </select>
+
+                    <!-- boton-->
+                    <div class="pt-5">
+                        <button class="btn btn-danger" onclick="calcular()">Calcular</button>
+                    </div>
+                </div>
+            </div>
+            <!-- foto vehiculo -->
+            <div class="col-sm-7 col-md-7 col-lg-7">
+                <div class="text-center logo2 pt-5">
+                    <img src="imagenes/autos.jpg" alt="Vehiculo" id="imagen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="js/reto5.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+</html>
